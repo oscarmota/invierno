@@ -24,7 +24,7 @@ public class ControladorAlumno
     
     // ESTE METODO BUSCA A TODOS LOS ALUMNOS GUARDADOS
     
-    @GetMapping ("/Alumno")
+    @GetMapping ("/alumno")
     public List <Alumno> buscarTodos()throws Exception
     {
     
@@ -34,7 +34,7 @@ public class ControladorAlumno
     
     //mETODO NUEVO ALUMNO
     
-    @PostMapping("/Alumno")
+    @PostMapping("/alumno")
     public Estatus guardarAlumno(@RequestBody String json) throws Exception
     {
     
